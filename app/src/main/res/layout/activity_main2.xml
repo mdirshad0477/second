@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.via.second.Main2Activity">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:orientation="vertical">
+       <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="playmusic"
+        android:textSize="35dp"
+        android:gravity="top"
+        android:id="@+id/ply"
+        />
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="stop"
+           android:textSize="35dp"
+           android:id="@+id/btnstop"
+           />
+   </LinearLayout>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"
+        android:text=" Md Irshad"
+        android:gravity="center"
+        android:id="@+id/tv"
+        android:textSize="40dp"
+        android:textColor="#ff0"
+        />
+
+</LinearLayout>
